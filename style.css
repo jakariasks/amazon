@@ -1,0 +1,325 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: white; */
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.border:hover{
+    border: 2px solid white;
+    padding: 0.2rem;
+   
+}
+/* ..................  nav logo and nav left ..........*/
+.nav-left{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.nav-logo{
+    background-image: url("amazon_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-self: center;
+    height: 50px;
+    width: 115px;
+    /* margin-left: rem; */
+    margin-right: 1rem;
+    border: transparent;
+}
+.border:hover{
+    border: 1px solid white;
+    padding: 0.2rem;
+   
+}
+
+p span{
+    margin-left: 1rem;
+    font-size: 0.85rem;
+}
+.location-icon{
+    font-size: 1.2rem;
+}
+
+/* ..................... Search-area............. */
+.nav-src{
+    height: 40px;
+    width: 680px;
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #F3A847;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: black;
+    
+}
+
+/* .............Log in Account & Lists................... */
+.hello{
+    font-size: 0.85rem;
+    margin-left: 7px;
+}
+.account-lists{
+    border: none;
+    background-color: #131921;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+
+/*  .............  Returns & Others ............. */
+
+.others{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* .................cart ..................... */
+
+.cart{
+    display: flex;
+}
+
+.cart-icon{
+    font-size: 1.8rem;
+}
+
+.Cart{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+/* .............. nav-panel............ */
+.nav-panel{
+    background-color: #232F3E;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu{
+    width: 40px;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 25px;
+    color: white;
+}
+.menu p{
+    margin-right: 5px;
+}
+
+.nav-ops{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+ul a{
+    
+    text-decoration: none;
+    color: white;
+    font-size: 0.85rem;
+    margin: 6px;
+}
+
+/* ...........Hero Section......... */
+.hero-section{
+    height: 300px;
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+}
+
+/* .............. container ............. */
+.container-box{
+    background-color: #E3E6E6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+
+}
+
+.box{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23%;
+    background-color: #FFFFFF;  
+    padding: 20px 0px 15px;
+    margin-top: 1rem;
+    
+}
+
+.box-img{
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+    
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p a{
+    text-decoration: none;
+    font-size: 0.85rem;
+    color: #007185;
+}
+
+/*                    Footer              */
+
+.footer-top{
+    margin-top: 5px;
+    height: 50px;
+    background-color: #485769;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-top p span{
+    font-size: 0.85rem;
+    color: white;
+}
+
+
+/*  ..........footer mid......... */
+
+.footer-mid{
+    height: 320px;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-list ul li {
+    list-style: none;  
+    margin-top: 8px;
+    color: white;
+    
+}
+.footer-list ul li a{
+    color: rgb(185, 182, 182);
+}
+
+/*................footer logo............. */
+.footer-logo{
+    height: 100px;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(185, 182, 182, 0.4);
+}
+.logo{
+    height: 50px;
+    width: 115px;
+    background-image: url("amazon_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-self: center;
+    
+}
+.btn{
+    height: 40px;
+    background-color: transparent;
+    color: rgb(185, 182, 182);
+    border: 1px solid rgb(185, 182, 182);
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    
+}
+.btn p{
+    
+    color: #E3E6E6;
+}
+select{
+    background-color: transparent;
+    border: none;
+    font-size: 0.85rem;
+    color: rgb(185, 182, 182);
+} 
+
+
+.language i{
+    font-size: 1rem;
+    margin-right: 5px;
+}
+
+/* ................footer-bottm.............. */
+
+.footer-bottm{
+    height: 100px;
+    background-color: #131921;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.footer-bottm ul li{
+    list-style: none;  
+    margin-top: 8px;
+    color: white;
+} 
+
+.footer-bottom-list ul a {
+    font-size: 0.75rem;
+    color: #B7B8BF;
+    margin-right: 1rem;
+}
+.copy-right{
+    font-size: 0.75rem;
+    text-align: center;
+    color: #B7B8BF;
+}
+
+.footer a:hover{
+    text-decoration: 1px underline white ;
+}
+.btn:hover{
+    border: 1px solid rgb(238, 237, 237);
+}
