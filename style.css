@@ -20,6 +20,7 @@
     padding: 0.2rem;
    
 }
+
 /* ..................  nav logo and nav left ..........*/
 .nav-left{
     display: flex;
@@ -87,6 +88,9 @@ p span{
     border-bottom-right-radius: 4px;
     color: black;
     
+}
+.nav-src:hover{
+    border: 2px solid yellow;
 }
 
 /* .............Log in Account & Lists................... */
