@@ -327,3 +327,87 @@ select{
 .btn:hover{
     border: 1px solid rgb(238, 237, 237);
 }
+
+
+
+
+
+
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    /* Navbar */
+    .navbar {
+        flex-direction: row;
+    }
+
+    .navbar,
+    .nav-left {
+        justify-content: center;
+    }
+
+    .nav-src {
+        width: 100%;
+    }
+
+    .search-select {
+        width: 20%;
+    }
+
+    .search-input {
+        width: 70%;
+    }
+
+    .search-icon {
+        width: 20%;
+    }
+
+    /* Cart */
+    .cart {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .Cart {
+        margin-top: 5px;
+    }
+
+    /* Container */
+    .box {
+        width: 90%;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .box-img {
+        height: 200px;
+    }
+
+    /* Footer */
+    .footer-mid {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .footer-logo {
+        height: 80px;
+    }
+
+    .footer-bottm ul li {
+        margin-top: 5px;
+    }
+
+    .footer-bottom-list ul a {
+        font-size: 0.65rem;
+    }
+
+    .copy-right {
+        font-size: 0.65rem;
+    }
+}
+
+
+
+
+
+  
