@@ -64,7 +64,8 @@ p span{
     border-radius: 4px;
 }
 .search-select{
-    background-color: #f3f3f3;
+    background-color: #D4D4D4;
+    color: black;
     width: 50px;
     text-align: center;
     border-top-left-radius: 4px;
@@ -89,8 +90,16 @@ p span{
     color: black;
     
 }
+.search-select option{
+    text-align: left;
+    font-size: 1rem;
+}
+.search-select, .All{
+    text-align: right;
+    font-size: 1.2rem;
+ }
 .nav-src:hover{
-    border: 2px solid yellow;
+    border: 2px solid orange;
 }
 
 /* .............Log in Account & Lists................... */
